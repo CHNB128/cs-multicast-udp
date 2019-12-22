@@ -1,10 +1,13 @@
 using System;
+using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 
 class Programm {
+
+  private List<Double> numbers;
 
   public static void Main () {
     Task.Run (async () => {
